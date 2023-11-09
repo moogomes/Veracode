@@ -33,7 +33,7 @@ jobs:
         env:
           VeracodeID: ${{ secrets.VeracodeID }} # Lembrar de criar as credenciais no Secrets
           VeracodeKey: ${{ secrets.VeracodeKey }}
-          AppName: Github Actions - ${{ github.repository }}
+          AppName: Monique - ${{ github.repository }}
         with:
           vid: '$VeracodeID'
           vkey: '$VeracodeKey'
